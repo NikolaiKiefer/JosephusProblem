@@ -10,7 +10,9 @@ console.log("| |_) | '__/ _ \\| '_ \\| |/ _ \\ '_ ` _ \\");
 console.log("|  __/| | | (_) | |_) | |  __/ | | | | |");
 console.log("|_|   |_|  \\___/|_.__/|_|\\___|_| |_| |_|");
 console.log(" ");
-console.log("Willkommen beim Problem des Josephus, es folgt eine kleine Einleitung mit Entstehung und Erklärung des Problems");
+
+const explanation = "Das Prolem de Josephus ist ein theoretisches Problem. Josephus ist ein griechischer Soldat der mit seinen 40 Kameraden in einer Höhle verschanzt und umzingelt ist. Josephus Kameraden wollen lieber sterben aber als sich von den Römern gefangen nehmen zu lassen. Josephus teilt diese Meinung nicht aber hat Angst das sie ihn töten wenn er es seinen Kameraden mitteilt. Er schlägt vor das sich alle in einen kreis stellen und im Kreis tötet der Krieger welcher an der Reihe ist seinen linken Nachbarn. Ist die Runde beendet geht es von vorne los solange bis nur noch eine Person übrig ist. An welcher stelle im Kreis muss Jpsephus also stehen um zu überleben das er sich stellen kann.";
+
 
                                        
 const readline = require('readline').createInterface({
@@ -18,6 +20,7 @@ const readline = require('readline').createInterface({
   output: process.stdout
 })
 function start() {
+	
 readline.question('Wie viele Krieger einschließlich Posephus gibt es?', (warriorCount) => {
 	if (!isNaN(warriorCount)) {
   console.log(`Es gibt ${warriorCount} Krieger einschließlich Posephus`);
@@ -28,6 +31,7 @@ readline.question('Wie viele Krieger einschließlich Posephus gibt es?', (warrio
 		start();
 	}
 })
+
 }
 start();
 
@@ -53,4 +57,8 @@ function numberToBites(number) {
 	return bit;
 }
 
+function showExplanation() {
+	console.log(explanation);
+}
             
+
