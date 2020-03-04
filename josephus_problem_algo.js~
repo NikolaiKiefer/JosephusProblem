@@ -78,6 +78,7 @@ function reduceWarriors(oldArray, startPosition){
 			factor = 0
 		}
 	}
+	console.log(newArray);
 	if( newArray.length > 1) {
 	newArray  = reduceWarriors(newArray,factor);
 	}
