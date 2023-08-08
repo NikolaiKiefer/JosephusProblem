@@ -11,9 +11,9 @@ console.log("|  __/| | | (_) | |_) | |  __/ | | | | |");
 console.log("|_|   |_|  \\___/|_.__/|_|\\___|_| |_| |_|");
 console.log(" ");
 
-const explanation = "Das Prolem de Josephus ist ein theoretisches Problem. Josephus ist ein griechischer Soldat der mit seinen 40 Kameraden in einer Höhle verschanzt und umzingelt ist. Josephus Kameraden wollen lieber sterben aber als sich von den Römern gefangen nehmen zu lassen. Josephus teilt diese Meinung nicht aber hat Angst das sie ihn töten wenn er es seinen Kameraden mitteilt. Er schlägt vor das sich alle in einen kreis stellen und im Kreis tötet der Krieger welcher an der Reihe ist seinen linken Nachbarn. Ist die Runde beendet geht es von vorne los solange bis nur noch eine Person übrig ist. An welcher stelle im Kreis muss Jpsephus also stehen um zu überleben das er sich stellen kann.";
+const explanation = "Das Prolem des Josephus ist ein theoretisches Problem. Josephus ist ein griechischer Soldat der mit seinen 40 Kameraden in einer Höhle verschanzt und umzingelt ist. Josephus Kameraden wollen lieber sterben aber als sich von den Römern gefangen nehmen zu lassen. Josephus teilt diese Meinung nicht aber hat Angst das sie ihn töten wenn er es seinen Kameraden mitteilt. Er schlägt vor das sich alle in einen kreis stellen und im Kreis tötet der Krieger welcher an der Reihe ist seinen linken Nachbarn. Ist die Runde beendet geht es von vorne los solange bis nur noch eine Person übrig ist. An welcher stelle im Kreis muss Jpsephus also stehen um zu überleben das er sich stellen kann.";
 
-
+console.log(explanation);
                                        
 const readline = require('readline').createInterface({
   input: process.stdin,
